@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+  <title>Galeria | Tus Postres</title>
+ <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="stylesheet" href="css/contacto.css">
+  <link href="https://file.myfontastic.com/NkpiVTtqRdwVYdyYqcx9iE/icons.css" rel="stylesheet">
+   </head>
+    <body>
+   
+    <header class="main-header">
+        <div class="container container--flex">
+        <div class="logo-container column column--50">
+            <h1 class="logo">Tus Postres</h1>
+        </div>
+        <div class="main-header__contactInfo column column--50">
+            <p class="main-header__contactInfo__phone">
+                <span class="icon-tel">555-555-555</span>
+            </p>
+            <p class="main-header__contactInfo__address">
+                 <span class="icon-gps">Caracas</span>
+            </p>
+
+        </div>
+        </div>
+    </header>
+    <nav class="main-nav">
+        <div class="container container--flex"> 
+        <span class="icon-menu" id="btnmenu"></span>
+        <ul class="menu" id="menu">
+            <li class="menu__item"><a href="index.html" class="menu__link  ">Inicio</a></li>
+            <li class="menu__item"><a href="nosotros.html" class="menu__link  ">Productos</a></li>
+            <li class="menu__item"><a href="galeria.html" class="menu__link ">Galeria</a></li>
+            <li class="menu__item"><a href="contacto.html" class="menu__link menu__link--select">Contacto</a></li>
+        </ul>
+        <div class="social-icon">
+            <a href="" class="social-icon__link"><span class="icon-facebook"></span></a>
+            <a href="" class="social-icon__link"><span class="icon-twitter"></span></a>
+            <a href="" class="social-icon__link"><span class="icon-mail"></span></a>
+        </div>
+        </div>
+    </nav>
+    
+    <section class="banner">
+        <img src="img/pexels2.jpeg" alt="" class="banner__img">
+        <div class="banner__content">Dejanos tu mensaje</div>
+    </section>
+    
+    <main class="main">
+    <section class="group contact">
+        <h2 class="group__title">Contactenos</h2>
+        <div class="contact container--flex">
+            <div class="contact-information column column--50">
+                <h3 class="column__title">Informacion de contacto</h3>
+                <p class="column__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi amet, esse distinctio laboriosam sit repellendus eum! Amet delectus labore blanditiis, hic fugiat voluptas praesentium non quas minus, quasi a!</p>
+                <p class="column__txt"> <span class="icon-tel"></span>Telefono 1: 555-555-555</p>
+                <p class="column__txt"> <span class="icon-tel"></span>Telefono 2: 999-999-999</p>
+                <p class="column__txt"><span class="icon-gps"></span>Caracas</p>
+                <p class="column__txt"><span class="icon-mail"></span>consulta@mail.com </p>
+                
+                 <div class="social-icon">
+                 <a href="" class="social-icon__link"><span class="icon-facebook"></span></a>
+                 <a href="" class="social-icon__link"><span class="icon-twitter"></span></a>
+                 <a href="" class="social-icon__link"><span class="icon-mail"></span></a>
+        </div>
+                
+            </div>
+            <form action="enviar-correo.php" method="post" class="formulario column column--50">
+                <label for="" class="formulario__label">Nombre:</label>
+                <input type="text" class="formulario__input-txt" name="nombre">
+                <label for="" class="formulario__label">Apellido:</label>
+                <input type="text" class="formulario__input-txt" name="apellido">
+                <label for="" class="formulario__label">Correo:</label>
+                <input type="text" class="formulario__input-txt" name="correo">
+                <label for="" class="formulario__label">Telefono:</label>
+                <input type="text" class="formulario__input-txt" name="telefono">
+                  <label for="" class="formulario__label">Mensaje:</label>
+                  <textarea name="mensaje" id="" cols="30" rows="10" class="formulario__textarea"></textarea>
+                  <input type="submit" class=" btn formulario__btn" value="Enviar">
+            </form>
+        </div>
+    </section>
+    
+    </main>
+    
+
+    <footer class="main-footer">
+            <div class="container container--flex">
+                <div class="column column--33">
+                <h2 class="column__title">¿Por que seguirnos?</h2>
+                <p class="column__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim neque tenetur molestias quidem iusto facilis quis perferendis quam, praesentium labore ut assumenda adipisci cumque expedita eveniet id magnam rem. Consequuntur.</p> 
+                
+                
+                </div>
+                <div class="column column--33">
+                <h2 class="column__title">Contactonos</h2>
+                <p class="column__txt">555-555-555</p>
+                <p class="column__txt">Caracas</p>
+                <p class="column__txt">postres@hotmail.com</p>
+                </div>
+                <div class="column column--33">
+                    <h2 class="column__title">Siguenos en nuestra redes</h2>
+                    <p class="column__txt"><a href="" class="icon-facebook">Facebook</a></p>
+                    <p class="column__txt"><a href="" class="icon-twitter">Siguenos en twitter</a></p>
+                    <p class="column__txt"><a href="" class="icon-youtube">visitanos en nuestro canal de youtube</a></p>
+                </div>
+                <p class="copy">2019 tus postres /todos los derechos reservados  </p>
+            </div>
+        </footer>
+        <script src="js/menu.js"></script>
+        <script src="js/modal.js"></script>
+    </body>
+</html>
